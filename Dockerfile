@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-LABEL org.opencontainers.image.source="https://github.com/lachlanglasgow/reclip"
+LABEL org.opencontainers.image.source="https://github.com/averygan/reclip"
 LABEL org.opencontainers.image.description="ReClip - video downloader"
 LABEL org.opencontainers.image.licenses="MIT"
 
