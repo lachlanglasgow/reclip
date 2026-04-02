@@ -73,6 +73,13 @@ def run_download(job_id, url, format_choice, format_id):
         job["error"] = str(e)
 
 
+@app.route("/up")
+@app.route("/health")
+@app.route("/healthz")
+def health():
+    return "OK", 200
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
